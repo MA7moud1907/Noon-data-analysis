@@ -47,16 +47,6 @@ The project architecture relies on a **Star Schema** data model featuring a cent
 
 ---
 
-## 🧮 Sample DAX Measures
-
-```dax
-Profit Margin % = 
-VAR Sales = SUM(fact_InternetSales[SalesAmount])
-VAR Cost = SUM(fact_InternetSales[TotalProductCost])
-RETURN 
-    DIVIDE(Sales - Cost, Sales)
-
- ---
 <img width="1335" height="767" alt="Screenshot 2026-10-02 181108" src="https://github.com/user-attachments/assets/96b64509-fb12-4ef0-9a3a-d3aa4839b7b8" />
 <img width="1377" height="761" alt="noon2" src="https://github.com/user-attachments/assets/cdc8416a-14ad-4374-9c03-1ee0ef85d91a" />
 <img width="1352" height="767" alt="noon3" src="https://github.com/user-attachments/assets/f784e498-6acd-40c0-b9e9-0806741dd7ec" />
